@@ -8,5 +8,3 @@ applications:
   memory: 256MB
   domain: mybluemix.net
   host: nodebffcloudant
-  services:
-    - nodebffcloudant-cloudant-1553104026526
