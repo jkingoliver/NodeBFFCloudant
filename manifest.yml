@@ -1,0 +1,12 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: nodeBFFCloudant
+  buildpack: sdk-for-nodejs
+  command: npm start
+  memory: 256MB
+  domain: mybluemix.net
+  host: nodebffcloudant
+  services:
+    - nodebffcloudant-cloudant-1553104026526
